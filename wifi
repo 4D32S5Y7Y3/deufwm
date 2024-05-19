@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "SSID (Wi-Fi network name)?";
+read s;
+echo "Password?";
+read p;
+echo "Connecting to $s...";
+nmcli device wifi connect $s password $p;
+echo "Done!";

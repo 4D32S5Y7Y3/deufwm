@@ -1,0 +1,8 @@
+#!/bin/sh
+
+d=$(xrandr --current --verbose | grep -m 1 -w connected | cut -d " " -f1);
+echo "How bright?";
+read b;
+echo "Setting the brightness...";
+xrandr --output $d --brightness $b;
+echo "Done!";
