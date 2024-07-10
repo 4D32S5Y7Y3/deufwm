@@ -2,4 +2,4 @@
 
 Please don't use this
 
-These are just shell scripts I use for changing some stuff when I use a window manager instead of a desktop environment
+These are just shell scripts I ~~wrote~~ stole for changing some stuff when I use a window manager instead of a desktop environment
